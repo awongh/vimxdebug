@@ -1,0 +1,3 @@
+content vimxdebug chrome/content/
+
+overlay chrome://browser/content/browser.xul  chrome://vimxdebug/content/browserOverlay.xul

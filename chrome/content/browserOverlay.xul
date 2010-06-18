@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css"
+  href="chrome://vimxdebug/content/button.css"?>
+<overlay id="vimxdebug" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript"
+  src="chrome://vimxdebug/content/browserOverlay.js" />
+<toolbar id="nav-bar">
+<button id="vimxdebug-tb-b"
+  label="xdebug"
+  tooltiptext="vimxdebug session start"
+  oncommand="vimxdebugChrome.BrowserOverlay.reload()"
+  class="vimxdebug-button"
+  />
+  </toolbar>
+</overlay>
